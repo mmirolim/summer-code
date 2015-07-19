@@ -539,7 +539,6 @@ section h3.section-subheading {
 }
 .team-member img {
     margin: 0 auto;
-    border: 7px solid #fff;
 }
 .team-member h4 {
     margin-top: 25px;
@@ -752,7 +751,6 @@ body {
 }
 
 .team-member:hover > .team-img {
-	-webkit-transform: rotateY(180deg);
 }
 
 .team-img, .front, .back {
