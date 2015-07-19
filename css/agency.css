@@ -102,23 +102,23 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-xl {
     padding: 20px 40px;
-    border-color: #fed136;
+    border-color: #50b0e2;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #fed136;
+    background-color: #50b0e2;
 }
 .btn-xl:hover,
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #43A7DB;
     color: #fff;
-    background-color: #fec503;
+    background-color: #50b0e2;
 }
 .btn-xl:active,
 .btn-xl.active,
@@ -152,7 +152,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #222;
 }
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    /* font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; */
     color: #fed136;
 }
 .navbar-default .navbar-brand:hover,
@@ -178,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
+    font-weight: bolder;
     letter-spacing: 1px;
     color: #fff;
 }
@@ -189,8 +189,8 @@ fieldset[disabled] .btn-xl.active {
 }
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #fed136;
+    color: #FFF;
+    background-color: #50b0e2;
 }
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
@@ -199,9 +199,9 @@ fieldset[disabled] .btn-xl.active {
 }
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 5px 0;
         border: 0;
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0.11);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -244,7 +244,7 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 22px;
-    font-style: italic;
+    /* font-style: italic; */
     line-height: 22px;
 }
 header .intro-text .intro-heading {
@@ -263,8 +263,8 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 40px;
-        font-style: italic;
+        font-size: 4em;
+        font-weight: bold;
         line-height: 40px;
     }
     header .intro-text .intro-heading {
@@ -281,7 +281,7 @@ section {
 }
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 1em;
     font-size: 40px;
 }
 section h3.section-subheading {
@@ -294,7 +294,7 @@ section h3.section-subheading {
 }
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 80px;
     }
 }
 .service-heading {
@@ -721,7 +721,7 @@ ul.social-buttons li a:active {
 }
 ::selection {
     text-shadow: none;
-    background: #fed136;
+    background: #50b0e2;
 }
 img::selection {
     background: 0 0;
@@ -743,7 +743,7 @@ body {
 
 #services,
 #team {
-	background-color: #FED134;
+	background-color: #50b0e2;
 	color: #fff;
 }
 
