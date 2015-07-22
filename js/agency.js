@@ -24,3 +24,20 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+function initialize() {
+    var mapCanvas = document.getElementById('map-canvas');
+    var mapOptions = {
+        center: new google.maps.LatLng(41.338532, 69.334487),
+        zoom: 15,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+    var map = new google.maps.Map(mapCanvas, mapOptions)
+
+    var marker = new google.maps.Marker({
+        position: new google.maps.LatLng(41.338532, 69.334487),
+        map: map,
+    });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
