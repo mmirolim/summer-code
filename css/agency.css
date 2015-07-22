@@ -45,7 +45,7 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    font-weight: normal;
 }
 .img-centered {
     margin: 0 auto;
