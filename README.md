@@ -1,1 +1,1 @@
-## Summer Code School [http://codeschool.for.uz]
+### [Summer Code School](http://codeschool.for.uz)
